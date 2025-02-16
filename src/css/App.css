@@ -1,0 +1,52 @@
+@font-face {
+  font-family: PokemonSolid;
+  src: url(../assets/pokemonsolid.ttf);
+}
+
+body {
+  text-align: center;
+}
+
+.title {
+  font-family: 'PokemonSolid','Arial Black', sans-serif;
+  font-size: 50px;
+  color: #ffcc00; /* Yellow */
+  text-shadow: 
+    -3px -3px 0 #003a70, /* Blue outline */
+    3px -3px 0 #003a70, 
+    -3px 3px 0 #003a70, 
+    3px 3px 0 #003a70, 
+    -6px -6px 0 #00234a, /* Darker blue shadow */
+    6px -6px 0 #00234a, 
+    -6px 6px 0 #00234a, 
+    6px 6px 0 #00234a;
+  text-transform: uppercase;
+}
+
+
+.search-input {
+  width: 100%;
+  max-width: 350px;
+  padding: 10px;
+  margin: 20px 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.load-more-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.load-more-btn:hover {
+  background-color: #0056b3;
+}
